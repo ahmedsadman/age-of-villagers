@@ -1,8 +1,9 @@
 // A BaseShape represents a pixel
+package Shapes;
 
 public class BaseShape implements Shape {
-    int x;
-    int y;
+    public int x;
+    public int y;
 
     public BaseShape(int x, int y) {
         this.x = x;

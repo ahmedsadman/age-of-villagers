@@ -1,3 +1,7 @@
+package Objects;
+
+import Shapes.*;
+
 public class WaterSource extends ComplexShape {
     public WaterSource(int x, int y) {
         super(x, y);

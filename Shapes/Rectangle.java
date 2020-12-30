@@ -1,3 +1,5 @@
+package Shapes;
+
 public class Rectangle extends BaseShape {
     int width;
     int height;

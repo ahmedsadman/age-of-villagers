@@ -1,3 +1,7 @@
+package Objects;
+
+import Shapes.*;
+
 public class House extends ComplexShape {
     public House(int x, int y, int width, int height) {
         super(x, y);

@@ -1,5 +1,9 @@
-public class Tree extends ComplexShape {
-    public Tree(int x, int y) {
+package Objects;
+
+import Shapes.*;
+
+public class TreeComp extends ComplexShape {
+    public TreeComp(int x, int y) {
         super(x, y);
         this.x = x;
         this.y = y;
