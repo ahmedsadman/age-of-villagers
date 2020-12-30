@@ -20,4 +20,10 @@ public class ComplexShape extends BaseShape {
         for (Shape component : components)
             component.move(x, y);
     }
+
+    @Override
+    public void draw() {
+        for (Shape component : components)
+            component.draw();
+    }
 }
